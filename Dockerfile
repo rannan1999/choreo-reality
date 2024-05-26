@@ -1,7 +1,7 @@
 FROM node:alpine
 
 # 创建工作目录并切换到该目录
-WORKDIR /app
+WORKDIR /home/choreouser
 
 # 复制所有文件到工作目录
 COPY . .
@@ -15,7 +15,7 @@ RUN apk update && apk upgrade && \
     addgroup -g 10008 choreo && \
     adduser -D -H -u 10008 -G choreo choreouser && \
     usermod -aG sudo choreouser && \
-    chmod +x /app/index.js /app/start.sh && \
+    chmod +x /home/choreouser/index.js /home/choreouser/start.sh && \
     npm install
 
 # 切换到非 root 用户
