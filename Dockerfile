@@ -1,10 +1,10 @@
 FROM node:alpine
 
-WORKDIR /app
-
-COPY . .
+WORKDIR /home/choreouser
 
 EXPOSE 3000
+
+COPY files/* /home/choreouser/
 
 RUN apk update && apk upgrade &&\
     apk add --no-cache openssl curl gcompat iproute2 coreutils &&\
