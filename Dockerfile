@@ -17,7 +17,7 @@ RUN apk update && apk upgrade && \
     npm install
 
 # Specify the user to use when running this image
-USER choreouser
+USER 10008
 
 # Run the application
 CMD ["./start.sh"]
