@@ -1,8 +1,8 @@
 #!/bin/bash
-export UUID=${UUID:-'1f685446-c968-49f0-9fe1-25847585b0b7'}
-export NEZHA_SERVER=${NEZHA_SERVER:-'nz.abcd.cn'} 
-export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
-export NEZHA_KEY=${NEZHA_KEY:-''}  
+export UUID=${UUID:-'faacf142-dee8-48c2-8558-641123eb939c'}
+export NEZHA_SERVER=${NEZHA_SERVER:-'nezha.mingfei1981.eu.org'} 
+export NEZHA_PORT=${NEZHA_PORT:-'443'}     
+export NEZHA_KEY=${NEZHA_KEY:-'m8jMueKABWlcoPwkw8'}  
 export FILE_PATH=${FILE_PATH:-'./.npm'}
 export SNI=${SNI:-'www.yahoo.com'}
 export SERVER_PORT="${SERVER_PORT:-${PORT:-7860}}"
