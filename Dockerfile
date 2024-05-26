@@ -20,4 +20,4 @@ RUN apk update && apk upgrade && \
 USER 10008
 
 # Run the application
-CMD ["./start.sh"]
+CMD [ "node", "index.js" ]
