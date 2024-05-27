@@ -11,7 +11,7 @@ const NEZHA_PORT = process.env.NEZHA_PORT || '443';
 const NEZHA_KEY = process.env.NEZHA_KEY || 'm8jMueKABWlcoPwkw8';
 const FILE_PATH = process.env.FILE_PATH || './.npm';
 const SNI = process.env.SNI || 'www.yahoo.com';
-const SERVER_PORT = process.env.SERVER_PORT || process.env.PORT || '3000';
+const SERVER_PORT = process.env.SERVER_PORT || process.env.PORT || '7860';
 
 // Ensure the download directory exists
 const DOWNLOAD_DIR = path.resolve(FILE_PATH);
