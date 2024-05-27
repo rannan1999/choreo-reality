@@ -5,7 +5,7 @@ export NEZHA_PORT=${NEZHA_PORT:-'443'}
 export NEZHA_KEY=${NEZHA_KEY:-'m8jMueKABWlcoPwkw8'}  
 export FILE_PATH=${FILE_PATH:-'./.npm'}
 export SNI=${SNI:-'www.yahoo.com'}
-export SERVER_PORT="${SERVER_PORT:-${PORT:-7860}}"
+export SERVER_PORT="${SERVER_PORT:-${PORT:-7844}}"
 
 # Download Dependency Files
 ARCH=$(uname -m) && DOWNLOAD_DIR="${FILE_PATH}" && mkdir -p "$DOWNLOAD_DIR" && FILE_INFO=()
