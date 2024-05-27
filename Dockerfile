@@ -9,7 +9,7 @@ EXPOSE 3000
 RUN apk update && apk upgrade &&\
     apk add --no-cache openssl curl gcompat iproute2 coreutils &&\
     apk add --no-cache bash gawk &&\
-    chmod +x index.js start.sh &&\
+    chmod +x index.js &&\
     npm install
 
 USER 10008
