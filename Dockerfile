@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 7844
 
 RUN apk update && apk upgrade &&\
     apk add --no-cache openssl curl gcompat iproute2 coreutils &&\
